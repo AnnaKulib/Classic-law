@@ -3,57 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style,css">
 </head>
 <body>
     <header>
-          <h1>Классика права</h1>
-          <p>
-            <a href="">
+        <h1>Классика права</h1>
+        <p>
+        <a href="">
+            <img src="img/phone icon white.png" alt="phone icon">
                 +7 (000) 000-00-00 <br>
                 Бесплатная консультация
-            </a>
-          </p>
+        </a>
+        </p>
           <button>Заказать звонок</button>
-          <div>
-              <a href="">
+        <a href="#" class="login">
+            <img src="img/Login.png" alt="Login">
                 Войти/регестрация
-              </a>
-          </div>
+        </a>
     </header>
 
     <main>
-        <nav>
-            <ul>
-                <li>
-                    <a href="№">Компания</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Компания</a>
                 </li>
-                <li>
-                    <a href="№">Каталог</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Каталог</a>
                 </li>
-                <li>
-                    <a href="№">Контакты</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Контакты</a>
                 </li>
-                <li>
-                    <a href="№">Вопросы-ответы</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Вопросы-ответы</a>
                 </li>
-                <li>
-                    <a href="№">Прайс-лист</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Прайс-лист</a>
                 </li>
-                <li>
-                    <a href="№">Услуги</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link">Услуги</a>
                 </li>
-                <li>
-                    <a href="№">Поиск</a>
+                <li class="nav-item">
+                    <a href="№" class="nav-link"><img src="img/magnifier.png" alt="search"></a>
                 </li>
             </ul>
         </nav>
 
         <section>
+            <div class="image-femida">
+                <img src="img/libra.png" alt="libra">
+                <img src="img/femida.png" alt="femida">
+            </div>
             <div class="form-question">
                 <h2>Задайте вопрос юристу онлайн</h2>
                 <p>
                  Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.
                 </p>
+                <img src="img/lawyer.png" alt="lawyer">
                 <form action="">
                     <input type="tel" name="phone" value="" placeholder="Введите номер Вашего телефона">
                     <input type="text" name="question" value="" placeholder="Введите Ваш вопрос...">
@@ -64,6 +71,7 @@
             </div>
             <div>
                 <img src="" alt="">
+                <p>30 онлайн</p>
             </div>
             <div>
                 <h3>ЮРИСТЫ ДЛЯ БИЗНЕСА</h3>
@@ -95,7 +103,7 @@
                 <p>Проверка финансово-экономической деятельности организации, проводимая аудитором.</p>
                 <button>Подробнее</button>
             </div>
-            <!--Еще стрелки переключения и полоска переключения услуг-->
+            <!--Еще стрелки переключения и шкала прокрутки услуг-->
         </section>
 
         <section>
@@ -133,10 +141,13 @@
 
         <section>
             <div>
-                <h2></h2>
+                <h2>
+                    Юридическая помощь начинается с консультации
+                </h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>Заполните форму заявки , что бы получить первую бесплатную консультацию 
+                        по Вашей ситуации</li>
+                    <li>Наш менеджер свяжется с вами в ближайшее время </li>
                 </ul>
             </div>
             <div>
@@ -151,7 +162,58 @@
                 <p>Нажимая на кнопку, Вы даете согласие на обработку персональных данных</p>
             </div>
         </section>
+        <section>
+            <h2>Отзывы</h2>
+            <p>За долгое время работы, мы собрали десятки отзывов, которые помогут свормировать мнение о нашей работе </p>
+                <div class="reviews">
+                    <ul>
+                        <li>
+                            <img src="" alt="stars">
+                            <p>В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 рублей </p>
+                            <img src="" alt="avatar">
+                            <p>Алексей.К.В</p>
+                            <p>ООО “Энергон”</p>
+                        </li>
+                        <li>
+                            <img src="" alt="stars">
+                            <p>В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 рублей </p>
+                            <img src="" alt="avatar">
+                            <p>Алексей.К.В</p>
+                            <p>ООО “Энергон”</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Стрелочки и шкала прокрутки-->
+        </section>
     </main>
+
+    <footer>
+        <div>
+            <p>2021 Все права защищены </p>
+            <img src="" alt="icons">
+        </div>
+        <div>
+            <ul>
+                <li>Каталог</li>
+                <li>Прайс-лист</li>
+                <li>Услуги</li>
+                <li>Компания</li>
+                <li>Вопросы и ответы</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+        <div>
+            <a href="">
+                <img src="" alt="phone"> 
+                <p>+ 7 (000) 000-00-00</p>
+            </a>   
+            <a href="">
+                <img src="" alt="email">
+                <p>info@classica-prava</p>
+            </a>
+        </div>
+        <p>Г. Красноярск  ООО “Класика Права” </p>
+    </footer>
     
 </body>
 </html>
