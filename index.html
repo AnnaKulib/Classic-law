@@ -1,231 +1,301 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style,css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style,css" />
+  </head>
+  <body>
     <header>
-        <h1>Классика права</h1>
-            <a href=""><img src="./img/phone icon white.png" alt="phone icon"></a>
-            <a href="tel:+70000000000">+7 (000) 000-00-00 </a> 
-            <a href="">Бесплатная консультация</a>
-            <button type="button">Заказать звонок</button>
-            <a href="#" class="login"><img src="./img/Login.png" alt="Login"></a>
-            <a href="">Войти/регестрация</a> 
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Компания</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Каталог</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Контакты</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Вопросы-ответы</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Прайс-лист</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link">Услуги</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="№" class="nav-link"><img src="img/magnifier.png" alt="search"></a>
-                    </li>
-                </ul>
-            </nav>
+      <h1>Классика права</h1>
+      <a href=""><img src="./img/phone icon white.png" alt="phone icon" /></a>
+      <a href="tel:+70000000000">+7 (000) 000-00-00 </a>
+      <a href="">Бесплатная консультация</a>
+      <button type="button">Заказать звонок</button>
+      <a href="#" class="login"><img src="./img/Login.png" alt="Login" /></a>
+      <a href="">Войти/регестрация</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="№" class="nav-link">Компания</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Вопросы-ответы</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Прайс-лист</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link"
+              ><img src="img/magnifier.png" alt="search"
+            /></a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-            <div class="image-femida">
-                <img src="img/libra.png" alt="libra">
-                <img src="img/femida.png" alt="femida">
+      <section>
+        <div class="image-femida">
+          <img src="img/libra.png" alt="libra" />
+          <img src="img/femida.png" alt="femida" />
+        </div>
+      </section>
+      <section class="form-question">
+        <h2>Задайте вопрос юристу онлайн</h2>
+        <p>
+          Компания специализируется на оказании широкого спектра услуг как для
+          корпоративных клиентов так и для частных лиц. Профессионализм и
+          ответственность ключевые преимущества нашей компании.
+        </p>
+        <img src="img/lawyer.png" alt="lawyer" />
+        <form action="">
+          <input
+            type="tel"
+            name="phone"
+            value=""
+            placeholder="Введите номер Вашего телефона"
+          />
+          <input
+            type="text"
+            name="question"
+            value=""
+            placeholder="Введите Ваш вопрос..."
+          />
+          <input
+            type="radio"
+            name="privacy-policy"
+            value="privacy policy"
+            id="filter-privacy-policy"
+            checked
+          />
+          <label for="filter-privacy-policy"
+            >Нажимая кнопку “Отправить” вы соглашаетесь с политикой
+            конфидециальности</label
+          >
+        </form>
+        <button type="submit" class="btn btn-submit">Отправить вопрос</button>
+      </section>
+      <section>
+        <div>
+          <img src="#" alt="" />
+          <p>30 онлайн</p>
+        </div>
+        <div>
+          <h3>ЮРИСТЫ ДЛЯ БИЗНЕСА</h3>
+          <p>Сопровождение юридических лиц во всех областях права</p>
+          <button>Заказать звонок</button>
+        </div>
+      </section>
+      <section class="services">
+        <h2>Предоставляемые услуги</h2>
+        <p>
+          Компания специализируется на оказании широкого спектра услуг как для
+          корпоративных клиентов так и для частных лиц. Профессионализм и
+          ответственность ключевые преимущества нашей компании.
+        </p>
+        <ul>
+          <li>
+            <div class="building">
+              <h3>Строительство зданий</h3>
+              <p>
+                Осуществляется от имени и в интересах лиц, участвующих в деле:
+                сторон, третьих лиц, заявителей и иных заинтересованных лиц.
+              </p>
+              <button>Подробнее</button>
             </div>
-        </section>
-        <section class="form-question">
-            <h2>Задайте вопрос юристу онлайн</h2>
-            <p>
-                Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.
-            </p>
-            <img src="img/lawyer.png" alt="lawyer">
-            <form action="">
-                <input type="tel" name="phone" value="" placeholder="Введите номер Вашего телефона">
-                <input type="text" name="question" value="" placeholder="Введите Ваш вопрос...">
-                <input type="radio" name="privacy-policy" value="privacy policy" id="filter-privacy-policy" checked>
-                <label for="filter-privacy-policy">Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</label>
-            </form>
-            <button type="submit" class="btn btn-submit">Отправить вопрос</button>
-        </section>
-        <section>
-            <div>
-                <img src="#" alt="">
-                <p>30 онлайн</p>
+          </li>
+          <li>
+            <div class="repairs">
+              <h3>Ремонт оборудования</h3>
+              <p>
+                Частичная или полная передача работ по поддержке, обслуживанию и
+                модернизации ИТ-инфраструктуры в руки компаний.
+              </p>
+              <button>Подробнее</button>
             </div>
-            <div>
-                <h3>ЮРИСТЫ ДЛЯ БИЗНЕСА</h3>
-                <p>
-                    Сопровождение юридических лиц во всех областях права
-                </p>
-                <button>
-                    Заказать звонок 
-                </button>
+          </li>
+          <li>
+            <div class="courses">
+              <h3>Курсы английского</h3>
+              <p>
+                Проверка финансово-экономической деятельности организации,
+                проводимая аудитором.
+              </p>
+              <button>Подробнее</button>
             </div>
-        </section>
-        <section class="services ">
-            <h2>Предоставляемые услуги</h2>
-            <p>
-                Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.
-            </p>
-            <ul>
-                <li>
-                    <div class="building">
-                        <h3>Строительство зданий</h3>
-                        <p>Осуществляется от имени и в интересах лиц, участвующих в деле: сторон, третьих лиц, заявителей и иных заинтересованных лиц.</p>
-                        <button>Подробнее</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="repairs">
-                        <h3>Ремонт оборудования</h3>
-                        <p>Частичная или полная передача работ по поддержке, обслуживанию и модернизации ИТ-инфраструктуры в руки компаний.</p>
-                        <button>Подробнее</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="courses">
-                        <h3>Курсы английского</h3>
-                        <p>Проверка финансово-экономической деятельности организации, проводимая аудитором.</p>
-                        <button>Подробнее</button>
-                    </div>
-                </li>
-            </ul>
-            <!--Еще стрелки переключения и шкала прокрутки услуг-->
-        </section>
+          </li>
+        </ul>
+        <!--Еще стрелки переключения и шкала прокрутки услуг-->
+      </section>
 
-        <section>
-            <h2>Наши преимущества </h2>
-            <p>Команда опытных юристов </p>
-            <div class="advantages">
-                <ul>
-                    <li>
-                        <img src="" alt="">
-                        <h3>Низкие цены и широкий ассортимент </h3>
-                        <p>
-                            Не следует, однако забывать, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>Широкая сеть представительств </h3>
-                        <p>
-                            Таким образом консультация с широким активом способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.
-                        </p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>Весь товар сертифицирован </h3>
-                        <p>С другой стороны консультация с широким активом позволяет оценить значение новых предложений. Значимость этих проблем настолько очевидна, что реализация намеченных планов.</p>
-                    </li>
-                    <li>
-                        <img src="" alt="">
-                        <h3>Оперативная доставка и выгрузка товара</h3>
-                        <p>Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации позиций.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <section>
+        <h2>Наши преимущества</h2>
+        <p>Команда опытных юристов</p>
+        <div class="advantages">
+          <ul>
+            <li>
+              <img src="" alt="" />
+              <h3>Низкие цены и широкий ассортимент</h3>
+              <p>
+                Не следует, однако забывать, что постоянный количественный рост
+                и сфера нашей активности позволяет выполнять важные задания по
+                разработке дальнейших направлений развития.
+              </p>
+            </li>
+            <li>
+              <img src="" alt="" />
+              <h3>Широкая сеть представительств</h3>
+              <p>
+                Таким образом консультация с широким активом способствует
+                подготовки и реализации позиций, занимаемых участниками в
+                отношении поставленных задач.
+              </p>
+            </li>
+            <li>
+              <img src="" alt="" />
+              <h3>Весь товар сертифицирован</h3>
+              <p>
+                С другой стороны консультация с широким активом позволяет
+                оценить значение новых предложений. Значимость этих проблем
+                настолько очевидна, что реализация намеченных планов.
+              </p>
+            </li>
+            <li>
+              <img src="" alt="" />
+              <h3>Оперативная доставка и выгрузка товара</h3>
+              <p>
+                Идейные соображения высшего порядка, а также постоянное
+                информационно-пропагандистское обеспечение нашей деятельности
+                способствует подготовки и реализации позиций.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section>
-            <div>
-                <h2>
-                    Юридическая помощь начинается с консультации
-                </h2>
-                <ul>
-                    <li>Заполните форму заявки , что бы получить первую бесплатную консультацию 
-                        по Вашей ситуации</li>
-                    <li>Наш менеджер свяжется с вами в ближайшее время </li>
-                </ul>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <form action="">
-                    <input type="text" name="name" value="" placeholder="Введите Ваше имя">
-                    <input type="tel" name="phone" value="" placeholder="Введите номер телефона" required="required">
-                    <button type="submit" class="btn btn-submit">отправить</button>
-                </form>
-                <p>Нажимая на кнопку, Вы даете согласие на обработку персональных данных</p>
-            </div>
-        </section>
-        <section>
-            <h2>Отзывы</h2>
-            <p>За долгое время работы, мы собрали десятки отзывов, которые помогут свормировать мнение о нашей работе </p>
-                <div class="reviews">
-                    <ul>
-                        <li>
-                            <img src="" alt="stars">
-                            <p>В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 рублей </p>
-                            <img src="" alt="avatar">
-                            <p>Алексей.К.В</p>
-                            <p>ООО “Энергон”</p>
-                        </li>
-                        <li>
-                            <img src="" alt="stars">
-                            <p>В результате действий команды юристов удалось взыскать задолженость в размере 7 045 515 рублей </p>
-                            <img src="" alt="avatar">
-                            <p>Алексей.К.В</p>
-                            <p>ООО “Энергон”</p>
-                        </li>
-                    </ul>
-                </div>
-                <!--Стрелочки и шкала прокрутки-->
-        </section>
+      <section>
+        <div>
+          <h2>Юридическая помощь начинается с консультации</h2>
+          <ul>
+            <li>
+              Заполните форму заявки , что бы получить первую бесплатную
+              консультацию по Вашей ситуации
+            </li>
+            <li>Наш менеджер свяжется с вами в ближайшее время</li>
+          </ul>
+        </div>
+        <div>
+          <img src="" alt="" />
+        </div>
+        <div>
+          <form action="">
+            <input
+              type="text"
+              name="name"
+              value=""
+              placeholder="Введите Ваше имя"
+            />
+            <input
+              type="tel"
+              name="phone"
+              value=""
+              placeholder="Введите номер телефона"
+              required="required"
+            />
+            <button type="submit" class="btn btn-submit">отправить</button>
+          </form>
+          <p>
+            Нажимая на кнопку, Вы даете согласие на обработку персональных
+            данных
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Отзывы</h2>
+        <p>
+          За долгое время работы, мы собрали десятки отзывов, которые помогут
+          свормировать мнение о нашей работе 
+        </p>
+        <div class="reviews">
+          <ul>
+            <li>
+              <img src="" alt="stars" />
+              <p>
+                В результате действий команды юристов удалось взыскать
+                задолженость в размере 7 045 515 рублей
+              </p>
+              <img src="" alt="avatar" />
+              <p>Алексей.К.В</p>
+              <p>ООО “Энергон”</p>
+            </li>
+            <li>
+              <img src="" alt="stars" />
+              <p>
+                В результате действий команды юристов удалось взыскать
+                задолженость в размере 7 045 515 рублей
+              </p>
+              <img src="" alt="avatar" />
+              <p>Алексей.К.В</p>
+              <p>ООО “Энергон”</p>
+            </li>
+          </ul>
+        </div>
+        <!--Стрелочки и шкала прокрутки-->
+      </section>
     </main>
 
     <footer>
-        <div>
-            <p>2021 Все права защищены </p>
-            <img src="" alt="icons">
-        </div>
-        <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Компания</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Каталог</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Контакты</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Вопросы-ответы</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Прайс-лист</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link">Услуги</a>
-                </li>
-                <li class="nav-item">
-                    <a href="№" class="nav-link"><img src="img/magnifier.png" alt="search"></a>
-                </li>
-            </ul>
-        </nav>
-        <section>
-            <a href="tel:+70000000000"><img src="" alt="phone">+ 7 (000) 000-00-00</a>  
-            <a href="mailto:info@classica-prava"><img src="" alt="email">info@classica-prava</a>
-        </section>          
-        <address>Красноярск  ООО “Класика Права</address> 
+      <div>
+        <p>2021 Все права защищены</p>
+        <img src="" alt="icons" />
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="№" class="nav-link">Компания</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Вопросы-ответы</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Прайс-лист</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a href="№" class="nav-link"
+              ><img src="img/magnifier.png" alt="search"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <a href="tel:+70000000000"
+          ><img src="" alt="phone" />+ 7 (000) 000-00-00</a
+        >
+        <a href="mailto:info@classica-prava"
+          ><img src="" alt="email" />info@classica-prava</a
+        >
+      </section>
+      <address>Красноярск ООО “Класика Права</address>
     </footer>
-    
-</body>
+  </body>
 </html>
